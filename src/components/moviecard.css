@@ -1,0 +1,29 @@
+.mlist{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    overflow-x: scroll;
+    /* height: 120px; */
+    justify-content: left;
+    align-items: center;
+    color: white;
+    scrollbar-width: none;
+    
+    /* For Internet Explorer and Legacy Edge */
+    -ms-overflow-style: none;
+}
+.mlist::-webkit-scrollbar {
+    display: none;
+}
+.mlist img{
+    height: 300px;
+    border-radius: 7%;
+
+}
+.mltitle{
+    color: white;
+}
+.mlist img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1)
+}

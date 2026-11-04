@@ -5,7 +5,7 @@ import monitorIcon from "../assets/monitor.svg";
 import trendIcon from "../assets/trend-up.svg";
 import plusIcon from "../assets/plus.svg";
 import titlecard from "../assets/My_Demon-logo.png";
- 
+import MovieCard from "../components/MovieCard";
 import './home.css'
 
 
@@ -25,9 +25,17 @@ function Home() {
         <div className="main">
             <div className="det">
               <img src={titlecard} alt="titlecard" />
-            </div>
-          </div>
+              <p>Rating : 8/10</p>
+              <p>2M Streams</p>
+              <div className="hero-button">
+          <button className="b1">Play</button>
+          <button className="b2">Watch Trailer</button>
+        </div>
+      </div>
+      <MovieCard Mtitle="New This Week"/>
+      <MovieCard Mtitle="Trending"/>
     </div>
+          </div>
   )
 }
 
