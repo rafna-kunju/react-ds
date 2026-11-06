@@ -15,7 +15,10 @@ function Home() {
     <div className="netflix">
       <div className="sidebar">
         <img src={searchIcon} alt="Search icon" />
-        <img src={homeIcon} alt="Home icon"  />
+        <button>
+          <img src={homeIcon} alt="Home icon"  />
+        </button>
+        
         <img src={movieIcon} alt="Movie icon "  />
         <img src={monitorIcon} alt="Monitor icon"  />
         <img src={trendIcon} alt="trend icon"  />
